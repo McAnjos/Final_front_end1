@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    
+}
+
+.box1 {
+    display: inline;
+    width: 17vw;
+    height: 100vh;
+    background-color:royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 83vw;
+    height: 100vh;
+    background-color: gray;
+    align-items: center;
+    text-align: left;
+}
+
+#perfil {
+    width: 130px;
+    border-radius: 100%;
+    margin-top: 200px;
+    border: 2px solid black;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-left: 70px;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: 50px;
+}
+
+h2 {
+    margin-left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+.descrição {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.redes {
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.conhecimentos {
+    margin-left: 70px;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: 30px;
+    list-style-type: upper-latin;
+    
+}
+
+.objetivos {
+    margin-left: 70px;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: 30px;
+
+}
